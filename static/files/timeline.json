@@ -1,0 +1,88 @@
+[
+  {
+    "year": "2023",
+    "events": [
+      {
+        "icon": "recycling",
+        "title": "[edu] AI Developer Certification @LeWagon ",
+        "content": "Completed the 3 month full-time course. Met great people. My team's final project included training a GPT2 Architecture from scratch on Midi Music Files. We also created an interface with a MIDI keyboard to interact with the generative GPT2 output."
+      },
+      {
+        "icon": "near_me",
+        "title": "[life] Moved to Bordeaux",
+        "content": "Never regretted it once. Not only for the wine. Happy to talk about it !"
+      }
+    ]
+  },
+  {
+    "year": "2022",
+    "events": [
+      {
+        "icon": "move_up",
+        "title": "[work] Career Break",
+        "content": "I chose to leave Groupe ADP in order to focus on personal projects. I'm exploring my multiple interests through code, music and sports. Feel free to visit my github :) "
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "events": [
+      {
+        "icon": "diversity_3",
+        "title": "[edu] Level 1 & 2 Neurolinguistic Programming Certification",
+        "content": "I'm hopelessely curious about us humans, how we function and how I can help us communicate to the best of our abilities. I learned a lot, including multiple technical and behavioural tools."
+      }
+    ]
+  },
+  {
+    "year": "2020",
+    "events": [
+      {
+        "icon": "arrow_right",
+        "title": "[work] Lead Data Developer, Groupe ADP",
+        "content": "After my graduate program, i took on a multi-faceted role. While continuing the work started in Istanbul, i was also in charge of working on the migration of our on-prem Data Platform to the Cloud. This included recreating Data-Warehouses and Workflows, the migration of our dashboards from Tableau to PowerBI without disruption, and implementing the first company wide ML workflows."
+      }
+    ]
+  },
+  {
+    "year": "2019",
+    "events": [
+      {
+        "icon": "arrow_right",
+        "title": "[work] 3rd Mission, Groupe ADP",
+        "content": "My final mission was as a Data Architect, expatriated in Istanbul Turkey for the TAV Technology Division. My work included creating workshops with C-level executives to gather cross-company use-cases and available data. I also collaborated with local Universities in order to create public-private partnerships, in coordination with the TAV Technologies team."
+      },
+      {
+        "icon": "two_wheeler",
+        "title": "[edu] French Motorbike License",
+        "content": "Always wanted the freedom of being able to ride a motorbike anywhere. Got it first try, and had loads of fun since"
+      }
+
+    ]
+  },
+  {
+    "year": "2018",
+    "events": [
+      {
+        "icon": "arrow_right",
+        "title": "[work] 2nd Mission, Groupe ADP",
+        "content": "My second mission was as a Data Analyst in the Customer Division : Was in charge of Ad-hoc analysis, Dashboard creation for multiple internal clients, including EXCOM. Data included flights, customer paths, retail data, loyalty program and many others."
+      },
+      {
+        "icon": "arrow_right",
+        "title": "[work] Graduate Program, Groupe ADP : 1st Mission",
+        "content": "Was selected in the Groupe ADP graduate program, which gives the opportunity to work three 8 month long missions in different divisions of the Group. \n My first mission was under a Data Engineering role : Creation and maintaining of an on-prem Hadoop Cluster with 12 production servers"
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "events": [
+      {
+        "icon": "task_alt",
+        "title": "[edu] IT Engineer, Big Data Major",
+        "content": "Graduated with honours. My Major Thesis was the detection of real time anomalies in an Aluminum Foundry, while working at Thales Grenoble. This work allowed the reduction of CO2 emissions through the early flagging of anode-effects in the foundry"
+      }
+    ]
+  }
+]

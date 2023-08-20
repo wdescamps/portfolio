@@ -1,0 +1,24 @@
+[
+  {
+    "year": "2023",
+    "books": [
+      {
+        "name": "Francine Shapiro, Dépasser le passé.",
+        "review": "Excellent livre fondateur sur la l'accompagnement de patiens dans le cadre de la technique d'EMDR."
+      }
+    ]
+  },
+  {
+    "year": "2021",
+    "books": [
+      {
+        "name": "Ready Player One, Ernest Cline",
+        "review": "Well, i'll post a review here some day"
+      },
+      {
+        "name": "1984, George Orwell",
+        "review": "Same here :) "
+      }
+    ]
+  }
+]

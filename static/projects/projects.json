@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "name": "ObsidianGPT",
+      "link": "obsidian",
+      "date": "01/02/2023",
+      "short": "Automate an Obsidian Vault containing most ML/Deep Learning Models. Each model contains a python code, pros and cons, data types, most relevant publications and top 10 people relevant in this field.",
+      "status": "complete",
+      "weight": 1,
+      "tags": [
+        "tech"
+      ],
+      "photos": [
+        "/static/projects/obsidian/img.png"
+      ]
+    },
+    {
+      "name": "BEATS",
+      "link": "beats",
+      "date": "04/05/2023",
+      "short": "You want to have a global view of available machine learning algorithms? Ordered by type of data on which they can be used? Be able to explore the links between them? Compare their pros and cons? Have a python code for each model, with the most influential people in the field, their github and the latest papers on the subjet? Cherry on top, all that is automated, and presented in a Graph View? And in an Obsidian Vault? This project is for you.",
+      "weight": 1,
+      "tags": [
+        "media"
+      ],
+      "photos": [
+        "/static/projects/beats/beats.jpeg"
+      ]
+    },
+    {
+      "name": "Trash Score",
+      "link": "trash_score",
+      "date": "01/02/2023",
+      "short": "Create a trash score for every producted available in online Grocery Stores. Allow people to filter and rank products by this score. Reduce Waste.",
+      "status": "ongoing",
+      "weight": 2,
+      "tags": [
+        "tech"
+      ],
+      "photos": [
+        "/static/projects/trash_score/trash.png"
+      ]
+    }
+  ]
+}
