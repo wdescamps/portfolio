@@ -24,12 +24,6 @@ def timeline():
     return render_template('timeline.html', common=common, timeline=timeline)
 
 
-@app.route('/more')
-def more():
-    data = get_static_json("static/files/more.json")
-    return render_template('more.html', common=common, data=data)
-
-
 @app.route('/projects')
 def projects():
     data = get_static_json("static/projects/projects.json")['projects']
