@@ -10,7 +10,7 @@ body {
 }
 
 .navbar-ul {
-    background-color: #EAE7E2;
+    background-color: rgb(234, 231, 226);
     display: flex;
     justify-content: flex-end;
     width: 100%;

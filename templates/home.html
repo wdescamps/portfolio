@@ -11,6 +11,7 @@
 
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
 <script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 {% endblock %}
 
 {% block body %}
@@ -58,11 +59,33 @@
                 </a>
             </div>
         </div>
+
         <div class="middle-text">
-            <p class="text-content"><a href="timeline">A bit of history</a></p>
+            <!--Parsing of the timeline.json file which contains my timeline information, which were previously displayed in a separate html file-->
+            <!--The timeline variable is instanciated in the app.py file-->
+                {% for year in timeline %}
+                <div class="col s12 m4 l8">
+                    <span class="date">{{ year.year }}</span>
+                    <ul class="list">
+                        {% for event in year.events %}
+                        <li>
+                            <div class="icon-title">
+                                <i class="tiny material-icons">{{ event.icon }}</i>
+                                <a class="title">{{ event.title }}</a>
+                            </div>
+                            <span class="content">{{ event.content }}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+            <br>
+            <br>
+
             <p class="text-content">Enjoy your day !</p>
             <br>
         </div>
+        
     </div>
 </div>
 {% endblock %}

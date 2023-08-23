@@ -15,14 +15,8 @@ common = {
 
 @app.route('/')
 def index():
-    return render_template('home.html', common=common)
-
-
-@app.route('/timeline')
-def timeline():
     timeline = get_static_json("static/files/timeline.json")
-    return render_template('timeline.html', common=common, timeline=timeline)
-
+    return render_template('home.html', common=common, timeline=timeline)
 
 @app.route('/projects')
 def projects():
@@ -34,13 +28,6 @@ def projects():
         data = [project for project in data if tag.lower() in [project_tag.lower() for project_tag in project['tags']]]
 
     return render_template('projects.html', common=common, projects=data, tag=tag)
-
-
-@app.route('/experiences')
-def experiences():
-    experiences = get_static_json("static/experiences/experiences.json")['experiences']
-    experiences.sort(key=order_projects_by_weight, reverse=True)
-    return render_template('projects.html', common=common, projects=experiences, tag=None)
 
 
 def order_projects_by_weight(projects):
