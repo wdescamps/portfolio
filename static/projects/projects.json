@@ -4,7 +4,7 @@
       "name": "ObsidianGPT",
       "link": "obsidian",
       "date": "01/02/2023",
-      "short": "Automate an Obsidian Vault containing most ML/Deep Learning Models. Each model contains a python code, pros and cons, data types, most relevant publications and top 10 people relevant in this field.",
+      "short": "Python Knowledge graph creation using Obsidian Vault. Contains most ML/Deep Learning Models. Each model contains a python code, pros and cons, data types, most relevant publications and top 10 people relevant in this field.",
       "status": "complete",
       "weight": 1,
       "tags": [
