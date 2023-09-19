@@ -15,9 +15,11 @@ common = {
 
 @app.route('/')
 def index():
-    timeline = get_static_json("static/files/timeline.json")
-    return render_template('home.html', common=common, timeline=timeline)
+    #timeline = get_static_json("static/files/timeline.json")
+    #return render_template('home.html', common=common, timeline=timeline)
+    return render_template('home.html', common=common)
 
+''' #Removes Project template for simplicity
 @app.route('/projects')
 def projects():
     data = get_static_json("static/projects/projects.json")['projects']
@@ -35,6 +37,7 @@ def order_projects_by_weight(projects):
         return int(projects['weight'])
     except KeyError:
         return 0
+
 
 
 @app.route('/projects/<title>')
@@ -61,7 +64,7 @@ def project(title):
         selected['description'] = io.open(get_static_file(
             'static/%s/%s/%s.html' % (path, selected['link'], selected['link'])), "r", encoding="utf-8").read()
     return render_template('project.html', common=common, project=selected)
-
+'''
 
 @app.errorhandler(404)
 def page_not_found(e):

@@ -6,7 +6,7 @@ $(function() {
       "><span class='caret'>$</span> Job: Cognitive/Musical/Sports/Quirky  Data Explorer<br/> ^100" +
       "><span class='caret'>$</span> Skills: Asking question. Creating Links. Finding fun answers<br/> ^100" +
       "><span class='caret'>$</span> Interests: Neuropsychology, Space exploration, Bike-packing, Surfing, Volleyball, Coaching...<br/> ^300" +
-      "><span class='caret'>$</span> Let's switch roles, how about you?? <br/> ^300"
+      "><span class='caret'>$</span> Scroll down to see what i'm currently exploring <br/> ^300"
     ],
     showCursor: true,
     cursorChar: '_',
