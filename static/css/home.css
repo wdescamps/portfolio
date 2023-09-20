@@ -45,6 +45,8 @@ body {
 
 .player {
   border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
   overflow: hidden;
   z-index: 1;
   height: 315px;
