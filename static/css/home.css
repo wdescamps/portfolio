@@ -4,16 +4,16 @@ body {
 }
 
 .neato-header {
-  color: black;
+  color: #444;
   font-size: 20px;
   font-family: 'Open Sans Condensed';
-  text-transform: uppercase;
-  border: 2px solid black;
+  border-radius: 5px;
+  border: 2px solid #444;
   display: flex; /* Add Flexbox display */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  overflow: hidden;
-  padding: 0.5em 1.5em;
+  justify-content: center; /* Center text horizontally */
+  align-items: stretch; /* Equal spacing above and below the text */
+  padding: 0.25em ; /* Adjust the padding to move the border closer to the text */
+  margin: 3em; /* Adjust the margin to control the space around the text */
 }
 
 
